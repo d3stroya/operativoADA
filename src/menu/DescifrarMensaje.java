@@ -78,7 +78,7 @@ public class DescifrarMensaje {
     public static String rotar(String mensajeOriginal, int rotacion) {
         // Recorremos caracter a caracter el mensaje introducido por el usuario,
         // almacenando cada caracter en la variable homónima.
-        for (int i = 0; i <= mensajeOriginal.length()-1; i++) {
+        for (int i = 0; i < mensajeOriginal.length(); i++) {
             char caracter = mensajeOriginal.charAt(i);
 
             // Si el caracter no es una letra, lo agregamos a mensajeRotado tal cual
